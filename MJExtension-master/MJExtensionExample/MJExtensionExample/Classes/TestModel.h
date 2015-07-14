@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "BaseModel.h"
 
 typedef enum {
     SexMaleTest,
@@ -17,7 +17,7 @@ typedef enum {
 
 @class InnerModel;
 
-@interface TestModel : NSObject
+@interface TestModel :BaseModel
 
 @property (copy, nonatomic) NSString *str;
 @property (copy, nonatomic) NSString *null;

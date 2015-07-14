@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BaseModel.h"
 
 @interface Dog : NSObject
 @property (copy, nonatomic) NSString *nickName;

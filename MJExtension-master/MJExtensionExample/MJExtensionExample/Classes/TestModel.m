@@ -17,11 +17,6 @@
              };
 }
 
-+ (NSDictionary *)replacedKeyFromPropertyName
-{
-    return @{@"key1" : @"key2",
-             @"iter" : @"iter1.iter2[0].iter3"
-             };
-}
+
 
 @end

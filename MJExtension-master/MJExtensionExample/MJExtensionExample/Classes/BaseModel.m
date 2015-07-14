@@ -10,10 +10,12 @@
 
 @implementation BaseModel
 
-//+ (NSString *)replacedKeyFromPropertyName121:(NSString *)propertyName
-//{
-//    // nickName -> nick_name
-//    return [propertyName underlineFromCamel];
-//}
+
++ (NSDictionary *)replacedKeyFromPropertyName
+{
+    return @{@"key1" : @"key2",
+             @"iter" : @"iter1.iter2[0].iter3"
+             };
+}
 
 @end
